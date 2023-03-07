@@ -2,23 +2,10 @@
 
 This project contains all Jupyter (executed in Colab) notebooks, assignments, and projects for Dr. Xianglong's course on Remote Sensing & Computer Vision, offered Fall 2022.
 
-## Getting started
+## Author's note
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Keep in mind all of these projects (as of 03/07/2023) were created as assignments and may be improved upon through other techniques not touched on. These notebooks should provide an overview of algorithms used to manipulate imaging and sensing data, while also including image transformations and image stitching using OpenCV. There is also a slight touch on Pytorch to build an image classification model from scratch using the CIFAR-10 dataset.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.csi.miamioh.edu/gandeetj/remote-sensing-and-computer-vision.git
-git branch -M main
-git push -uf origin main
-```
 
 ## Integrate with your tools
 
@@ -44,49 +31,22 @@ Use the built-in continuous integration in GitLab.
 
 ***
 
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
 ## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Assignments from Remote Sensing and Computer Vision at Miami University, an exclusively-graduate course taught by Dr. Xianglong Feng in Fall 2022.
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+All notebooks may be executed through Colab, though not all images exist in the repository. Furthermore, if you are running anything using Pytorch, it is best to attach a GPU to the kernel
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+In Google Colab, go to: Settings -> Change Runtime Type -> Hardware Accelerator -> Select GPU
 
 ## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+For any questions you may email me at gandeetj@miamioh.edu
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+An individual project is in the works to train a cascade classifier on a first-person-shooter (FPS) game to deploy a machine-learning-based aiming assist tool. ML-based aimbots are becoming increasingly popular, and significantly harder to detect than data-mining aimbots. In order to understand how to defend against such aimbots, we look to understanding how these classifiers run in real-time alongside the video game.
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
+All assignments were created by Dr. Feng, while solutions are my own.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+The overall coursework is complete, however this project may be the location for the future cascade classifier.
